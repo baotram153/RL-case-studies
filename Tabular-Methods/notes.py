@@ -29,11 +29,13 @@ print(arr1)
 
 # plt.show()
 
-import torch
-import numpy as np
+# import torch
+# import numpy as np
 
-mat1 = torch.zeros((4, 1, 3))
-mat2 = torch.zeros((4, 1, 3, 3))
+# mat1 = torch.zeros((4, 1, 3))
+# mat2 = torch.zeros((4, 1, 3, 3))
 
-mat3 = mat1.matmul(mat2)
-print(mat3.shape)
+# mat3 = mat1.matmul(mat2)
+# print(mat3.shape)
+
+print(f"zfill test: " + f"{2}".zfill(3))
